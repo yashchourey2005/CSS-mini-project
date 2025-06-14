@@ -6,6 +6,9 @@
 .main_box{
     background-image: url(photo.jpg);
     background-size: cover;
+    background-repeat: no-repeat;   /* Prevents tiling */
+    background-position: center;    /* Keeps image centered */
+    background-attachment: fixed;   /* Optional: for parallax-like effect */
     height: 100vh;
 }
 
@@ -122,3 +125,5 @@
 #check:checked ~.sidebar_menu{
     left: 0;
 }
+
+/* https://github.com/yashchourey2005/CSS-mini-project.git */
